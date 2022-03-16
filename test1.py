@@ -42,6 +42,7 @@ class Test1():
         # 2 | setWindowSize | 1920x1020 |
         self.driver.set_window_size(1920, 1020)
         # 3 | click | css=input |
+        time.sleep(1)
         self.driver.find_element(By.CSS_SELECTOR, "input").click()
         # 4 | type | css=input | name
         self.driver.find_element(By.CSS_SELECTOR, "input").send_keys(name)

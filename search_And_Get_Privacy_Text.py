@@ -21,3 +21,5 @@ print('程序运行完毕，您所需要的隐私政策文件在本级目录下'
 user_input_str = input('请输入exit退出:')
 if user_input_str == 'exit':
     exit()
+
+
